@@ -109,7 +109,7 @@ PixelSearch()
 return
 
 loop2:
-While GetKeyState(key_hold, "P"){
+While GetKeyState(q, "P"){
 PixelSearch()
 }
 return
